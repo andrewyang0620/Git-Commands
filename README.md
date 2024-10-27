@@ -1,6 +1,2 @@
-## Git-Commands
-
-### clone repo 指令
-'''bash
-git clone <repo-name>
-'''
+# Git-Commands
+This repository is meant for storing all the commonly used Git commands for project development.

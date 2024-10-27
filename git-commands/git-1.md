@@ -1,7 +1,7 @@
 ## Git基本指令
 
-### clone repo
+### 克隆repo
 
 ```bash
-npm install http-server
+git clone <repo-name>
 ```

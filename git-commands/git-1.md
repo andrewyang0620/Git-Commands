@@ -6,7 +6,7 @@
 git clone <repo-name>
 ```
 
-### 2. 查找branch
+### 2. 查找/切换branch
 
 #### - 在本地查找
 
@@ -26,8 +26,21 @@ git checkout <branch-name>
 git branch -r
 ```
 
-#### - checkout到云端的branch
+#### - 切换到云端的branch
 
 ```bash
 git checkout -b <branch-name> origin/<branch-name>
 ```
+
+### 3. 删除不想push的改动
+
+```bash
+git stash
+```
+
+### 4. 从云端更新
+
+```bash
+git pull origin <branch-name>
+```
+

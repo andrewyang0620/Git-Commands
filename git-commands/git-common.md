@@ -44,3 +44,8 @@ git stash
 git pull origin <branch-name>
 ```
 
+### 5. 执行 node server.js 时出现sqlite3错误
+
+```bash
+npm rebuild sqlite3
+```
